@@ -1,0 +1,12 @@
+.nav{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    background-color: rgba(225, 192, 192, 0.755);
+    box-shadow: -4px 0px 20px 0px rgba(56,41,41,0.75);
+}
+
+.image {
+    width: 150px;
+    padding: 1rem;
+}

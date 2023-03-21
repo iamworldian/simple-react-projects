@@ -1,0 +1,15 @@
+.hero {
+    width: 100vw;
+    background-image: url('./assets/hero_banner.jpg');
+    height: 400px;
+    margin: 0;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    bottom: 1.5rem;
+    padding: 2rem;
+    background-color: rgba(29, 28, 28, 0.9);
+    color:white;
+}
