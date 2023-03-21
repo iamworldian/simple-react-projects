@@ -6,3 +6,6 @@ This repo is a practice repo for simple react projects
 
 # Airbnb Simple
 ![image](./screens/airbnb.png)
+
+# Tours
+![](./screens/tours.gif)

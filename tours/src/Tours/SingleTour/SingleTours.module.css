@@ -1,0 +1,67 @@
+
+.container {
+    background-color: rgb(243, 243, 243);
+    margin-top: 1em;
+    border-radius: 1em;
+    width: 400px;
+    box-shadow: 10px 10px 38px -7px rgba(0,0,0,0.75);
+}
+.image {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1em 1em 0 0;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.name {
+    width: 250px;
+}
+
+.price{
+    font-style: italic;
+    color: navy;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.info {
+    padding: 1em;
+    font-size: 0.8rem;
+}
+.btn {
+    margin: 1em;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+   background-color:burlywood;
+   transition: all 0.5s ease-in;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.notInterestedBtn {
+    border: 2px solid rgb(150, 54, 54);
+    color: rgb(135, 43, 43);
+}
+
+.accomplished {
+    border: 2px solid rgb(57, 195, 110);
+    color: rgb(30, 151, 38);
+}
+
+.readMore {
+    border: none;
+    color: blue;
+    font-size: 1.2em;
+}

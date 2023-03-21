@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.heading {
+    text-align: center;
+    border-bottom: 5px solid navy;
+}
+
