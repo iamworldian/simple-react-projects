@@ -1,0 +1,28 @@
+.question {
+    display: flex;
+    margin-bottom:0.5em;
+    justify-content:space-between;
+    font-size: 0.8em;
+}
+.btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.plus {
+    color:rgb(185, 233, 55)
+}
+
+.minus {
+    color:rgb(62, 34, 205)
+}
+
+.ans {
+    background-color: rgba(62, 56, 56, 0.387);
+    padding: 1em;
+    font-size: 0.7em;
+    border-radius:1em;
+}

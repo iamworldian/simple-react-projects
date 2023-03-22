@@ -12,3 +12,6 @@ This repo is a practice repo for simple react projects
 
 # Reviews
 ![image](./screens/reviews.gif)
+
+# Accordion
+![image](./screens/accordion.png)
