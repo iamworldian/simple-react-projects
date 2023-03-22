@@ -1,0 +1,85 @@
+.card {
+    width: 70vw;
+    box-shadow: 10px 10px 31px 0px rgba(0,0,0,0.75);
+    border-radius: 1em;
+}
+
+.imageDiv {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    background-color: brown;
+    border-radius: 1em;
+    transition: all 0.5s ease-in;
+}
+
+.imageBg{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(19, 135, 217);
+    border-radius: 50%;
+    position: relative;
+    margin: 0.2em;
+    transition: all 0.5s ease-in;
+}
+.image {
+    position:absolute;
+    top: 5px;
+    right: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: all 0.5s ease-in;
+}
+.quote {
+    position: absolute;
+    color: white;
+    background-color: rgb(19, 135, 217) ;
+    padding: 5px;
+    border-radius: 50%;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+    transition: all 0.5s ease-in;
+}
+
+.name {
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.job {
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: 900;
+    color: darkcyan;
+}
+
+.text {
+    font-size: x-small;
+    margin-top: 1em;
+    padding: 0em 0.5em;
+    width: 80%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    width: 40px;
+    margin: 0 auto;
+}
+
+.btn {
+    border: none;
+    color: rgb(10, 194, 133);
+}
+
+.btn:hover {
+    scale: 1.5;
+    transition: all 0.5s ease-in;
+}

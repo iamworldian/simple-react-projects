@@ -8,4 +8,7 @@ This repo is a practice repo for simple react projects
 ![image](./screens/airbnb.png)
 
 # Tours
-![](./screens/tours.gif)
+![image](./screens/tours.gif)
+
+# Reviews
+![image](./screens/reviews.gif)
