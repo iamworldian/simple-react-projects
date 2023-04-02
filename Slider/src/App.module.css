@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(250, 250, 250);
+}
