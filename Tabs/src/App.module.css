@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(45, 11, 26);
+  color: white;
+}
+
+
+
+.duties{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.active{
+  border-bottom: 50px solid #FF3D00;
+}
+.jobIcon{
+  color: #4595af;
+}
+.title{
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+}
+.companyTitle {
+  background-color: beige;
+  color: black;
+  padding: 3px;
+  width:min-content;
+  border-radius: 5px;
+}
+.dates {
+  color: burlywood;
+  font-style: italic;
+}
+.jobDetails{
+  width: 90%;
+  height: 60%;
+  display: flex;
+}
+.btnCompany{
+  padding: 10px;
+  width:120px;
+  background-color: rgba(255,255,255,0.0);
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+  color: white;
+}
+.rightPanel {
+  width: 100%;
+}
+.active{
+  border-left: 10px solid #c56d52;
+}
+.leftPanel {
+  width:250px;
+  margin-top: 80px;
+  display: block;
+}
+
+@media screen and (max-width: 900px) {
+  .jobDetails{
+    width: 90%;
+    display: block;
+  }
+  .leftPanel {
+    width:100%;
+    justify-items: center;
+    align-items: center;
+  }
+  .btnCompany{
+    padding: 10px;
+    background-color: antiquewhite;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+    color: black;
+  }
+  .active{
+    border-bottom: 10px solid #c56d52;
+  }
+}
+/* Loading Css */
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background: #FF3D00;
+  width: 3px;
+  height: 24px;
+  transform: translateX(-50%);
+}
+    
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 

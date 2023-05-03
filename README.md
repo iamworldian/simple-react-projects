@@ -15,3 +15,6 @@ This repo is a practice repo for simple react projects
 
 # Accordion
 ![image](./screens/accordion.png)
+
+# Tabs
+![image](./screens/tabs.gif)
