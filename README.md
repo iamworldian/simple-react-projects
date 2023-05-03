@@ -18,3 +18,6 @@ This repo is a practice repo for simple react projects
 
 # Tabs
 ![image](./screens/tabs.gif)
+
+# Color Generator
+![image](./screens/color_generator.gif)

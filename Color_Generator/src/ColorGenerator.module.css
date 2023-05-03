@@ -1,0 +1,19 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    font-size: 2rem;
+}
+
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+}

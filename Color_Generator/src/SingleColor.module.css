@@ -1,0 +1,10 @@
+.colorBox {
+    height: 150px;
+    width: 150px;
+    
+}
+.colorBox p{
+    text-align: center;
+    mix-blend-mode:difference;
+    color: white;
+}
