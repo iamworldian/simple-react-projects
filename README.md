@@ -1,6 +1,10 @@
+
+
 # simple-react-projects
 This repo is a practice repo for simple react projects
 
+# Todo App
+![image](./screens/todo_app.gif)
 # Quote Generator
 ![image](./screens/quote_gen.png)
 
