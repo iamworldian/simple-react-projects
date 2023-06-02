@@ -30,7 +30,7 @@ export const budgetAction = async ({ request }) => {
   return null;
 };
 export default function BudgetPage() {
-  const data = useLoaderData();
+  const data: any = useLoaderData();
   const params = useParams();
 
   return (

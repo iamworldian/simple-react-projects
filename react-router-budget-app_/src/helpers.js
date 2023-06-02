@@ -12,7 +12,7 @@ const generateRandomColor = () => {
 };
 export const createNewBudget = ({ name, amount }) => {
   const newItem = {
-    id: crypto.randomUUID(),
+    id: self.crypto.randomUUID(),
     name: name,
     amount: amount,
     createdAt: Date.now(),
@@ -26,7 +26,7 @@ export const createNewBudget = ({ name, amount }) => {
 
 export const addNewExpenseToBudgets = ({ newXpense, newXpenseAmount, budgetIndex }) => {
   const newExpense = {
-    id: crypto.randomUUID(),
+    id: self.crypto.randomUUID(),
     name: newXpense,
     amount: newXpenseAmount,
     createdAt: Date.now(),

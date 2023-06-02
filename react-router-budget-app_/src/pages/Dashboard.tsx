@@ -56,7 +56,7 @@ export async function dashboardAction({ request }) {
 }
 
 const Dashboard = () => {
-  const { userName, budgets } = useLoaderData();
+  const { userName, budgets }: any = useLoaderData();
 
   return (
     <div>

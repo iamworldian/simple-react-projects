@@ -4,8 +4,8 @@ import { useFetcher } from 'react-router-dom';
 export default function AddBudgetForm() {
   const fetcher = useFetcher();
   const isSubmitting = fetcher.state === 'submitting';
-  const formRef = useRef();
-  const focusRef = useRef();
+  const formRef = useRef<HTMLFormElement>(null);
+  const focusRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     if (!isSubmitting) {

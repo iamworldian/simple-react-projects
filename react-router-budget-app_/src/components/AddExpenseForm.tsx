@@ -5,8 +5,8 @@ import { useFetcher } from 'react-router-dom';
 export default function AddExpenseForm({ budgets }) {
   const fetcher = useFetcher();
   const isSubmitting = fetcher.state === 'submitting';
-  const formRef = useRef();
-  const inputRef = useRef();
+  const formRef = useRef<HTMLFormElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const [xpense, setXpense] = useState(budgets ? budgets[0].name : '');
   console.log(xpense);
   useEffect(() => {
